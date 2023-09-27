@@ -1,0 +1,27 @@
+.NotFound{
+     height: 100vh;
+     text-align: center;
+     padding:25% 0;
+     font-size: 100px;
+     animation: fadein 1s ease-in;
+}
+
+
+@keyframes fadein{
+     0%{
+        
+         opacity: 0;
+     }
+     30%{
+        opacity: 0.3;
+     }
+     40%{
+        opacity: .4;
+     }
+     50%{
+        opacity: .6;
+     }
+     100%{
+        opacity: 1;
+     }
+}

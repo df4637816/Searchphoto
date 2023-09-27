@@ -1,0 +1,26 @@
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .picture{
+        padding: 1rem;
+        width: 400px;
+        .imageContainer{
+            overflow: hidden;
+            height: 40vh;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all .3s ease;
+                &:hover{
+                    transform: scale(1.25);
+                }
+
+            }
+        }
+
+    }
+}
+
